@@ -1,0 +1,31 @@
+// The goal of this program is to have the LED turn on and off every second 
+
+//This is a digital output program 
+
+void setup() { 
+
+  // Set the LED pin as an output 
+
+  pinMode(l13, OUTPUT); 
+
+} 
+
+  
+
+void loop() { 
+
+  // Turn the LED on 
+
+  digitalWrite(13, 1); 
+
+  delay(1000); // Wait for 1 second 
+
+  
+
+  // Turn the LED off 
+
+  digitalWrite(ledPin, 0); 
+
+  delay(1000); // Wait for 1 second 
+
+} 
