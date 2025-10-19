@@ -6,7 +6,7 @@ void setup() {
 
   // Set the LED pin as an output 
 
-  pinMode(l13, OUTPUT); 
+  pinMode(13, OUTPUT); 
 
 } 
 
